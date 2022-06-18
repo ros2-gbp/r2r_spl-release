@@ -25,11 +25,11 @@ def splsm_msg_to_data(msg: SPLSM) -> bytes:
         playerNum=msg.player_num,
         teamNum=msg.team_num,
         fallen=msg.fallen,
-        pose=msg.pose.tolist(),  # Must convert numpy.ndarray to list
+        pose=msg.pose,
         ballAge=msg.ball_age,
-        ball=msg.ball.tolist(),  # Must convert numpy.ndarray to list
+        ball=msg.ball,
         numOfDataBytes=msg.num_of_data_bytes,
-        data=msg.data.tolist()  # Must convert numpy.ndarray to list
+        data=msg.data
     )
     data = SPLStandardMessage.build(container)
     return data
