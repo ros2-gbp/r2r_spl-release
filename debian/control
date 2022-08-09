@@ -1,0 +1,12 @@
+Source: ros-galactic-splsm-7-conversion
+Section: misc
+Priority: optional
+Maintainer: ijnek <kenjibrameld@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest <!nocheck>, ros-galactic-ament-copyright <!nocheck>, ros-galactic-ament-flake8 <!nocheck>, ros-galactic-ament-pep257 <!nocheck>, ros-galactic-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-galactic-splsm-7-conversion
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, python3-construct, ros-galactic-splsm-7, ros-galactic-ros-workspace
+Description: Converts Standard Platform League Standard Message V7 between ROS msg and UDP raw bytes
