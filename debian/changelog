@@ -1,0 +1,16 @@
+ros-rolling-splsm-7-conversion (3.0.1-3noble) noble; urgency=high
+
+  * Change SPLSM msg data field to bounded array
+  * Remove SPLSM msg num_of_data_bytes field
+  * Contributors: Kenji Brameld
+
+ -- ijnek <kenjibrameld@gmail.com>  Tue, 09 Aug 2022 00:00:00 -0000
+
+ros-rolling-splsm-7-conversion (3.0.0-3noble) noble; urgency=high
+
+  * Initial commit
+  * Contributors: Kenji Brameld
+
+ -- ijnek <kenjibrameld@gmail.com>  Sat, 18 Jun 2022 00:00:00 -0000
+
+
