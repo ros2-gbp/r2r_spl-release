@@ -128,4 +128,5 @@ tracks:
     ros_distro: rolling
     vcs_type: git
     vcs_uri: https://github.com/ros-sports/r2r_spl.git
-    version: :{auto}
+    version: 3.0.1
+    version_saved: :{auto}
