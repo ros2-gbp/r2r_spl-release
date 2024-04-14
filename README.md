@@ -1,3 +1,34 @@
+## r2r_spl (humble) - 2.1.0-1
+
+The packages in the `r2r_spl` repository were released into the `humble` distro by running `/usr/bin/bloom-release r2r_spl --rosdistro humble -e` on `Sun, 14 Apr 2024 01:24:09 -0000`
+
+These packages were released:
+- `r2r_spl`
+- `r2r_spl_7`
+- `r2r_spl_8`
+- `r2r_spl_test_interfaces`
+- `splsm_7`
+- `splsm_7_conversion`
+- `splsm_8`
+- `splsm_8_conversion`
+
+Version of package(s) in repository `r2r_spl`:
+
+- upstream repository: https://github.com/ros-sports/r2r_spl.git
+- release repository: https://github.com/ros2-gbp/r2r_spl-release.git
+- rosdistro version: `2.0.1-1`
+- old version: `2.0.1-1`
+- new version: `2.1.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## r2r_spl (foxy) - 0.0.2-1
 
 The packages in the `r2r_spl` repository were released into the `foxy` distro by running `/usr/bin/bloom-release --rosdistro foxy r2r_spl` on `Tue, 09 Aug 2022 10:13:29 -0000`
