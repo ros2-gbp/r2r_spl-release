@@ -1,6 +1,6 @@
 from setuptools import setup
 
-package_name = 'r2r_spl_7'
+package_name = 'r2r_spl_8'
 
 setup(
     name=package_name,
@@ -15,12 +15,12 @@ setup(
     zip_safe=True,
     maintainer='ijnek',
     maintainer_email='kenjibrameld@gmail.com',
-    description='Robot-To-Robot communication in RoboCup SPL using SPLSM V7',
+    description='Robot-To-Robot communication in RoboCup SPL',
     license='Apache License 2.0',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'r2r_spl = r2r_spl_7.r2r_spl:main',
+            'r2r_spl = r2r_spl_8.r2r_spl:main',
         ],
     },
 )
